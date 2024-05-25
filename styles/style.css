@@ -69,5 +69,39 @@ input {
 }
 
 #div1{
-  
+  display: flex;
+}
+
+#input-funcionario{
+  flex: 1;
+}
+
+#div2{
+  display: flex;
+}
+
+#input-local-nascimento{
+  flex: 1;
+}
+
+#input-estado-nascimento{
+  width: 60px;
+  margin-left: 10px;
+}
+
+#div3{
+  display: flex;
+}
+
+#div4 {
+  display: flex;
+}
+
+#input-nome-pai, #input-nome-mae {
+  flex: 1;
+}
+
+#select-estado-civil {
+  width: 80px;
+  text-align: center;
 }

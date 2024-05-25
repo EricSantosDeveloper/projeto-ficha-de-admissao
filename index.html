@@ -12,7 +12,7 @@
         <div id="container-empresa">
             <form id="form-empresa" action="">
                 <label for="input-empresa">Nome da Empresa:</label>
-                <input id="input-empresa" name="input-empresa" type="text">
+                <input id="input-empresa" name="empresa" type="text">
             </form>
         </div>
         <div id="container-titulo-dados-pessoais">
@@ -20,25 +20,58 @@
             <h3>(Preenchimento Obrigatório pelo Empregado)</h3>
         </div>
         <form action="#">
-            <div id="div1">
-                <label for="">Nome do Funcionário:</label>
-                <input type="text">
-                <label for="">Data de Nascimento:</label>
-                <input type="date">
+                <div id="div1">
+                    <label for="input-funcionario">Nome do Funcionário:</label>
+                    <input id="input-funcionario" name="funcionario" type="text">
+                </div>
+                <label for="input-nascimento">Data de Nascimento:</label>
+                <input id="input-nascimento" name="nascimento" type="date">
+                <br>
+            <div id="div2">
+                <label for="input-local-nascimento">Local de Nascimento:</label>
+                <input id="input-local-nascimento" name="local-nascimento" type="text">
+                <label for="input-estado-nascimento">Estado de Nascimento:</label>
+                <select id="input-estado-nascimento" name="estado-nascimento">
+                    <option value=""></option>
+                    <option value="">AC</option>
+                    <option value="">AL</option>
+                    <option value="">AP</option>
+                    <option value="">AM</option>
+                    <option value="">BA</option>
+                    <option value="">CE</option>
+                    <option value="">DF</option>
+                    <option value="">ES</option>
+                    <option value="">MA</option>
+                    <option value="">MT</option>
+                    <option value="">MS</option>
+                    <option value="">MG</option>
+                    <option value="">PA</option>
+                    <option value="">PB</option>
+                    <option value="">PR</option>
+                    <option value="">PE</option>
+                    <option value="">PI</option>
+                    <option value="">RJ</option>
+                    <option value="">RN</option>
+                    <option value="">RS</option>
+                    <option value="">RO</option>
+                    <option value="">RR</option>
+                    <option value="">SC</option>
+                    <option value="">SP</option>
+                    <option value="">SE</option>
+                    <option value="">TO</option>
+                </select>
             </div>
-            <label for="">Local de Nascimento:</label>
-            <input type="text">
-            <label for="">Estado de Nascimento:</label>
-            <select name="" id="">
-                <option value="">BA</option>
-                <option value="">PE</option>
-            </select>
-            <label for="">Nome do Pai:</label>
-            <input type="text">
-            <label for="">Nome da Mãe:</label>
-            <input type="text">
-            <label for="">Estado Civil:</label>
-            <select name="" id="">
+                    <div id="div3">
+                        <label for="input-nome-pai">Nome do Pai:</label>
+                        <input id="input-nome-pai" name="nome-pai" type="text">
+                    </div>
+                    <div id="div4">
+                        <label for="input-nome-mae">Nome da Mãe:</label>
+                        <input id="input-nome-mae" name="nome-mae" type="text">
+                    </div>
+            <label for="select-estado-civil">Estado Civil:</label>
+            <select id="select-estado-civil" name="estado-civil">
+                <option value=""></option>
                 <option value="">Solteiro</option>
                 <option value="">Casado</option>
             </select>
