@@ -1,129 +1,188 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ficha de Admissão</title>
-    <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
     <main class="container">
-        <h1>FICHA PARA ADMISSÃO</h1>
-        <div id="container-empresa">
-            <form id="form-empresa" action="">
-                <label for="input-empresa">Nome da Empresa:</label>
-                <input id="input-empresa" name="empresa" type="text">
-            </form>
-        </div>
-        <div id="container-titulo-dados-pessoais">
-            <h2>DADOS PESSOAIS DO FUNCIONÁRIO</h2>
-            <h3>(Preenchimento Obrigatório pelo Empregado)</h3>
-        </div>
-        <form action="#">
-                <div id="div1">
-                    <label for="input-funcionario">Nome do Funcionário:</label>
-                    <input id="input-funcionario" name="funcionario" type="text">
-                </div>
-                <label for="input-nascimento">Data de Nascimento:</label>
-                <input id="input-nascimento" name="nascimento" type="date">
-                <br>
-            <div id="div2">
-                <label for="input-local-nascimento">Local de Nascimento:</label>
-                <input id="input-local-nascimento" name="local-nascimento" type="text">
-                <label for="input-estado-nascimento">Estado de Nascimento:</label>
-                <select id="input-estado-nascimento" name="estado-nascimento">
-                    <option value=""></option>
-                    <option value="">AC</option>
-                    <option value="">AL</option>
-                    <option value="">AP</option>
-                    <option value="">AM</option>
-                    <option value="">BA</option>
-                    <option value="">CE</option>
-                    <option value="">DF</option>
-                    <option value="">ES</option>
-                    <option value="">MA</option>
-                    <option value="">MT</option>
-                    <option value="">MS</option>
-                    <option value="">MG</option>
-                    <option value="">PA</option>
-                    <option value="">PB</option>
-                    <option value="">PR</option>
-                    <option value="">PE</option>
-                    <option value="">PI</option>
-                    <option value="">RJ</option>
-                    <option value="">RN</option>
-                    <option value="">RS</option>
-                    <option value="">RO</option>
-                    <option value="">RR</option>
-                    <option value="">SC</option>
-                    <option value="">SP</option>
-                    <option value="">SE</option>
-                    <option value="">TO</option>
-                </select>
-            </div>
-                    <div id="div3">
-                        <label for="input-nome-pai">Nome do Pai:</label>
-                        <input id="input-nome-pai" name="nome-pai" type="text">
-                    </div>
-                    <div id="div4">
-                        <label for="input-nome-mae">Nome da Mãe:</label>
-                        <input id="input-nome-mae" name="nome-mae" type="text">
-                    </div>
-            <label for="select-estado-civil">Estado Civil:</label>
-            <select id="select-estado-civil" name="estado-civil">
-                <option value=""></option>
-                <option value="">Solteiro</option>
-                <option value="">Casado</option>
-            </select>
-            <label for="">Escolaridade:</label>
-            <input type="text">
-            <datalist>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-            </datalist>
-            <label for="">Raça/Cor:</label>
-            <select name="" id="">
-                <option value="">Branco</option>
-                <option value="">Negro</option>
-            <label for="">Endereço:</label>
-            <input type="text">
-            <label for="">Bairro:</label>
-            <input type="text">
-            <label for="">Cidade:</label>
-            <input type="text">
-            <label for="">CEP:</label>
-            <input type="number">
-            <label for="">Imóvel Próprio:</label>
-            <input type="radio">
-            <input type="radio">
-            <label for="">Comprado com recurso do FGTS:</label>
-            <input type="radio">
-            <input type="radio">
-            <label for="">Telefone para contato:</label>
-            <input type="tel">
-            <label for="">e-mail:</label>
-            <input type="email">
+      <h1>FICHA PARA ADMISSÃO</h1>
+      <div id="container-empresa">
+        <form id="form-empresa" action="">
+          <label for="input-empresa">Nome da Empresa:</label>
+          <input id="input-empresa" name="empresa" type="text" />
         </form>
+      </div>
+      <div id="container-titulo-dados-pessoais">
+        <h2>DADOS PESSOAIS DO FUNCIONÁRIO</h2>
+        <h3>(Preenchimento Obrigatório pelo Empregado)</h3>
+      </div>
+      <form action="#">
+        <div id="div1">
+          <label for="input-funcionario">Nome do Funcionário:</label>
+          <input id="input-funcionario" name="funcionario" type="text" />
+        </div>
+        <label for="input-nascimento">Data de Nascimento:</label>
+        <input id="input-nascimento" name="nascimento" type="date" />
+        <br />
+        <div id="div2">
+          <label for="input-local-nascimento">Local de Nascimento:</label>
+          <input
+            id="input-local-nascimento"
+            name="local-nascimento"
+            type="text"
+          />
+          <label for="input-estado-nascimento">Estado de Nascimento:</label>
+          <select id="input-estado-nascimento" name="estado-nascimento">
+            <option value=""></option>
+            <option value="">AC</option>
+            <option value="">AL</option>
+            <option value="">AP</option>
+            <option value="">AM</option>
+            <option value="">BA</option>
+            <option value="">CE</option>
+            <option value="">DF</option>
+            <option value="">ES</option>
+            <option value="">MA</option>
+            <option value="">MT</option>
+            <option value="">MS</option>
+            <option value="">MG</option>
+            <option value="">PA</option>
+            <option value="">PB</option>
+            <option value="">PR</option>
+            <option value="">PE</option>
+            <option value="">PI</option>
+            <option value="">RJ</option>
+            <option value="">RN</option>
+            <option value="">RS</option>
+            <option value="">RO</option>
+            <option value="">RR</option>
+            <option value="">SC</option>
+            <option value="">SP</option>
+            <option value="">SE</option>
+            <option value="">TO</option>
+          </select>
+        </div>
+        <div id="div3">
+          <label for="input-nome-pai">Nome do Pai:</label>
+          <input id="input-nome-pai" name="nome-pai" type="text" />
+        </div>
+        <div id="div4">
+          <label for="input-nome-mae">Nome da Mãe:</label>
+          <input id="input-nome-mae" name="nome-mae" type="text" />
+        </div>
+        <label for="select-estado-civil">Estado Civil:</label>
+        <input type="text" />
+        <div id="div5">
+          <label for="input-nome-conjuge">Nome do (a) Cônjuge:</label>
+          <input id="input-nome-conjuge" name="nome-conjuge" type="text" />
+        </div>
+        <div id="div6">
+          <label for="input-escolaridade">Escolaridade:</label>
+          <input
+            id="input-escolaridade"
+            name="escolaridade"
+            list="list-escolaridade"
+            type="text"
+          />
+          <datalist id="list-escolaridade">
+            <option value="Ensino Fundamental Incompleto"></option>
+            <option value="Ensino Fundamental Completo"></option>
+            <option value="Ensino Médio Incompleto"></option>
+            <option value="Ensino Médio Completo"></option>
+          </datalist>
+          <label for="input-raca-cor">Raça/Cor:</label>
+          <input
+            id="input-raca-cor"
+            name="raca-cor"
+            list="list-raca-cor"
+            type="text"
+          />
+          <datalist id="list-raca-cor">
+            <option value=""></option>
+            <option value="Branco">Branco</option>
+            <option value="Negro">Negro</option>
+            <option value="Indígena">Indígena</option>
+            <option value="Pardo">Pardo</option>
+            <option value="Amarelo">Amarelo</option>
+          </datalist>
+        </div>
+        <div id="div7">
+          <label for="input-endereco">Endereço:</label>
+          <input id="input-endereco" name="endereco" type="text" />
+        </div>
+        <div id="div8">
+          <label for="input-bairro">Bairro:</label>
+          <input id="input-bairro" name="bairro" type="text" />
+          <label for="input-cidade">Cidade:</label>
+          <input id="input-cidade" name="cidade" type="text" />
+          <label for="input-cep">CEP:</label>
+          <input id="input-cep" name="cep" type="number" />
+        </div>
+        <div id="div9">
+          <strong>
+            <p>Imóvel Próprio:</p>
+          </strong>
+          <input id="input-imovel-sim" name="grupo1" value="sim" type="radio" />
+          <label for="input-imovel-sim">Sim</label>
+          <input id="input-imovel-nao" name="grupo1" value="nao" type="radio" />
+          <label for="input-imovel-nao">Não;</label>
+        </div>
+        <div id="div10">
+          <strong>
+            <p>Comprado com Recurso do FGTS:</p>
+          </strong>
+          <input id="input-fgts-sim" name="grupo2" value="sim" type="radio" />
+          <label for="input-fgts-sim">Sim</label>
+          <input id="input-fgts-nao" name="grupo2" value="nao" type="radio" />
+          <label for="input-fgts-nao">Não;</label>
+        </div>
+        <div id="div11">
+          <label for="input-tel">Telefone para contato:</label>
+          <input id="input-tel" name="tel" type="tel" />
+          <label for="input-email">e-mail:</label>
+          <input id="input-email" name="email" type="email" />
+        </div>
+      </form>
+      <div id="documentacao">
         <h2>DOCUMENTAÇÃO</h2>
+      </div>
+      <div id="container-documentos">
         <form action="">
-            <label for="">Nº do CPF:</label>
-            <input type="number">
-            <label for="">Data da Emissão:</label>
-            <input type="date">
-            <label for="">Nº do RG:</label>
-            <input type="number">
-            <label for="">Data da Emissão:</label>
-            <input type="date">
-            <label for="">CNH nº:</label>
-            <input type="number">
-            <label for="">Categoria:</label>
-            <input type="text">
-            <label for="">Data:</label>
-            <input type="date">
+          <div id="div12">
+            <label for="input-cpf">Nº do CPF:</label>
+            <input id="input-cpf" name="cpf" type="number" />
+            <label for="input-data-emissao-cpf">Data da Emissão:</label>
+            <input
+              id="input-data-emissao-cpf"
+              name="data-emissao-cpf"
+              type="date"
+            />
+          </div>
+          <div id="div13">
+            <label for="input-rg">Nº do RG:</label>
+            <input id="input-rg" name="rg" type="number" />
+            <label for="input-data-emissao-rg">Data da Emissão:</label>
+            <input
+              id="input-data-emissao-rg"
+              name="data-emissao-rg"
+              type="date"
+            />
+          </div>
+          <div id="div14">
+            <label for="input-cnh">CNH nº:</label>
+            <input id="input-cnh" name="cnh" type="number" />
+            <label for="input-categoria">Categoria:</label>
+            <input id="input-categoria" name="categoria" type="text" />
+          </div>
+
+          <label for="">Data:</label>
+          <input type="date" />
         </form>
-            <p>Assinatura do Empregado</p>
+      </div>
+      <p>Assinatura do Empregado</p>
     </main>
-</body>
+  </body>
 </html>
